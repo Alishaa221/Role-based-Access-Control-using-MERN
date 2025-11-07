@@ -1,0 +1,563 @@
+/* ===================================================
+   BASE LAYOUT
+=================================================== */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ===================================================
+   HEADER
+=================================================== */
+.dashboard-header {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-info span {
+  font-size: 14px;
+}
+
+/* ===================================================
+   BUTTONS
+=================================================== */
+.logout-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+
+/* ===================================================
+   MAIN CONTENT
+=================================================== */
+.dashboard-main {
+  flex: 1;
+  padding: 40px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ===================================================
+   SECTIONS
+=================================================== */
+.users-section,
+.profile-section,
+.content-section {
+  background: var(--form-bg);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  border: 1px solid var(--input-border);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.users-section h2,
+.profile-section h2,
+.content-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+/* ===================================================
+   TABLE
+=================================================== */
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--text-color);
+}
+
+.users-table th,
+.users-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--input-border);
+}
+
+.users-table th {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  font-weight: 600;
+}
+
+.users-table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* ===================================================
+   ROLE DROPDOWN
+=================================================== */
+.role-select {
+  padding: 6px 10px;
+  border: 1px solid var(--input-border);
+  border-radius: 3px;
+  font-size: 14px;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ===================================================
+   DELETE BUTTON
+=================================================== */
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+/* ===================================================
+   PROFILE INFO
+=================================================== */
+.profile-info {
+  display: grid;
+  gap: 12px;
+}
+
+.profile-info p {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text-color);
+}
+
+.info-text {
+  background-color: rgba(52, 152, 219, 0.1);
+  padding: 12px;
+  border-left: 4px solid #3498db;
+  margin-top: 10px;
+  color: var(--text-color);
+  font-style: italic;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ===================================================
+   TEXTAREA
+=================================================== */
+.content-textarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 12px;
+  border: 1px solid var(--input-border);
+  border-radius: 5px;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  resize: vertical;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.content-textarea:focus {
+  outline: none;
+  border-color: var(--button-bg);
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+/* ===================================================
+   SAVE BUTTON
+=================================================== */
+.save-btn {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.save-btn:hover {
+  background-color: #229954;
+}
+
+/* ===================================================
+   ERROR MESSAGE
+=================================================== */
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 12px 16px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+/* ===================================================
+   THEME TOGGLE (BOTTOM RIGHT)
+=================================================== */
+.theme-toggle {
+  position: fixed !important;
+  bottom: 25px;
+  right: 25px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  color: var(--button-text);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 12px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  z-index: 10000;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.08);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ===================================================
+   ADMIN DASHBOARD ENHANCEMENTS
+=================================================== */
+
+.admin-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 40px;
+}
+
+.summary-card {
+  background: var(--form-bg);
+  border: 1px solid var(--input-border);
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+  color: var(--text-color);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.summary-card:hover {
+  transform: translateY(-3px);
+}
+
+.summary-card h3 {
+  margin: 10px 0 5px;
+}
+
+.summary-card p {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+/* ---------- Tabs ---------- */
+.admin-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.tab-btn {
+  padding: 10px 18px;
+  border: 1px solid var(--input-border);
+  background-color: var(--form-bg);
+  color: var(--text-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-btn.active {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  font-weight: 600;
+}
+
+/* ---------- Placeholder Section ---------- */
+.placeholder-section {
+  background: var(--form-bg);
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--input-border);
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  color: var(--text-color);
+}
+/* ===================================================
+   ENHANCEMENTS FOR NEW ADMIN DASHBOARD UI
+=================================================== */
+
+/* ---------- Search Bar ---------- */
+.search-bar {
+  width: 280px;
+  padding: 8px 14px;
+  border: 1px solid var(--input-border);
+  border-radius: 6px;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: var(--button-bg);
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+/* ---------- Table Wrapper ---------- */
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 6px;
+}
+
+/* ---------- Chart Section ---------- */
+.recharts-wrapper {
+  margin: 0 auto;
+}
+
+.dashboard h3 {
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+/* ---------- Quick Actions Section ---------- */
+.quick-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.action-card {
+  flex: 1;
+  min-width: 180px;
+  text-align: center;
+  background: var(--form-bg);
+  border: 1px solid var(--input-border);
+  padding: 16px;
+  border-radius: 8px;
+  color: var(--text-color);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.action-card:hover {
+  transform: translateY(-3px);
+  background-color: rgba(0,0,0,0.05);
+}
+
+/* ---------- Responsive Tweaks ---------- */
+@media (max-width: 768px) {
+  .admin-summary {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    margin: 10px 20px;
+  }
+
+  .search-bar {
+    width: 90%;
+  }
+
+  .quick-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .action-card {
+    width: 80%;
+  }
+}
+.recent-section {
+  background: var(--form-bg);
+  padding: 20px;
+  border: 1px solid var(--input-border);
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.recent-list {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-list li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--input-border);
+  padding: 8px 0;
+}
+
+.tip-card {
+  background: rgba(52, 152, 219, 0.1);
+  border-left: 4px solid #3498db;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.progress-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.progress-bar {
+  background: #ddd;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.progress-fill {
+  background: #27ae60;
+  height: 100%;
+  transition: width 0.5s ease;
+}
+
+.content-meta {
+  font-size: 13px;
+  opacity: 0.7;
+  margin-bottom: 8px;
+}
+/* ===================================================
+   USER DASHBOARD ENHANCEMENTS
+=================================================== */
+
+/* ---------- Recent Activity ---------- */
+.activity-section {
+  background: var(--form-bg);
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid var(--input-border);
+  margin-bottom: 25px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.activity-section h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.activity-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-list li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* ---------- Account Overview ---------- */
+.progress-section {
+  background: var(--form-bg);
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid var(--input-border);
+  margin-bottom: 25px;
+  color: var(--text-color);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: var(--input-bg);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #27ae60;
+  width: 0;
+  transition: width 0.6s ease;
+  border-radius: 5px;
+}
+
+/* ---------- Contact Admin ---------- */
+.contact-admin {
+  background: var(--form-bg);
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid var(--input-border);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  color: var(--text-color);
+  margin-bottom: 25px;
+}
+
+.contact-admin h2 {
+  margin-bottom: 10px;
+}
+
+.contact-admin .content-textarea {
+  min-height: 100px;
+  margin-bottom: 15px;
+}
+
+/* ---------- Quote Section ---------- */
+.quote-section {
+  text-align: center;
+  font-style: italic;
+  color: var(--text-color);
+  opacity: 0.8;
+  background: var(--form-bg);
+  border-radius: 8px;
+  padding: 15px;
+  border: 1px solid var(--input-border);
+}
