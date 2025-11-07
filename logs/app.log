@@ -1,0 +1,364 @@
+{"timestamp":"2025-11-05T16:11:13.175Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register%0A?Content-Type=application/json","ip":"::1"}
+{"timestamp":"2025-11-05T16:11:26.921Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-05T16:12:35.963Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-05T16:13:32.351Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-05T16:14:13.185Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-05T18:10:36.276Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/health","ip":"::1"}
+{"timestamp":"2025-11-05T18:12:05.986Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-05T18:12:05.992Z","level":"warn","message":"401 Unauthorized - No token provided","ip":"::1","url":"/api/users/all","method":"GET"}
+{"timestamp":"2025-11-05T18:13:13.402Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-05T18:13:37.049Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-05T18:13:37.053Z","level":"warn","message":"403 Forbidden - Insufficient permissions","ip":"::1","url":"/api/users/all","role":"editor","requiredRoles":["admin"]}
+{"timestamp":"2025-11-05T18:14:22.530Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T08:13:15.468Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-06T08:13:27.284Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T08:13:32.514Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T08:13:40.127Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T08:32:47.667Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T08:32:54.450Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T08:32:56.156Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T08:32:57.227Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T15:09:19.438Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T15:11:58.627Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T15:12:45.585Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-06T15:24:29.363Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T15:26:04.492Z","level":"info","message":"Incoming Request","method":"DELETE","url":"/api/users/reset","ip":"::1"}
+{"timestamp":"2025-11-06T15:26:36.065Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T15:27:45.213Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T15:28:28.186Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T15:30:16.565Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T15:32:31.028Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-06T15:33:12.289Z","level":"info","message":"Incoming Request","method":"DELETE","url":"/api/users/reset","ip":"::1"}
+{"timestamp":"2025-11-06T15:39:11.718Z","level":"info","message":"Incoming Request","method":"DELETE","url":"/api/users/reset","ip":"::1"}
+{"timestamp":"2025-11-06T15:41:21.852Z","level":"info","message":"Incoming Request","method":"DELETE","url":"/api/users/reset","ip":"::1"}
+{"timestamp":"2025-11-06T15:43:56.061Z","level":"info","message":"Incoming Request","method":"DELETE","url":"/api/users/reset","ip":"::1"}
+{"timestamp":"2025-11-06T15:46:40.172Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-06T15:46:44.106Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T15:54:47.201Z","level":"info","message":"Incoming Request","method":"DELETE","url":"/api/users/reset","ip":"::1"}
+{"timestamp":"2025-11-06T15:55:53.241Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-06T15:55:57.140Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T15:55:57.383Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T15:55:57.406Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T16:48:36.952Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T16:48:37.550Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T16:48:37.569Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T16:49:20.577Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-06T16:53:10.548Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-06T17:10:55.546Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-06T17:48:18.555Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T17:48:18.799Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T17:48:18.829Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T18:13:38.453Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-06T18:14:39.257Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-06T18:16:10.749Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-06T18:20:08.363Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-06T18:20:14.575Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T18:20:14.662Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T18:20:14.679Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T18:25:18.019Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T18:25:18.107Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T18:25:18.115Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T18:42:17.629Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T18:42:17.788Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T18:42:17.803Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T18:42:48.277Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T18:42:48.386Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T18:42:48.398Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T18:52:55.665Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T18:52:55.671Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T18:54:51.999Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-06T18:54:52.116Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T18:54:52.127Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T19:01:46.266Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T19:01:46.271Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T19:05:46.166Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T19:05:46.173Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T19:05:47.431Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T19:05:47.438Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T19:16:58.678Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T19:20:45.166Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-06T19:20:45.174Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T10:39:15.616Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T10:39:37.983Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T10:39:38.228Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T10:39:38.252Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T10:39:49.524Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T10:39:49.701Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T10:39:49.799Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T10:39:49.953Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T10:40:30.458Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T10:40:30.699Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T10:40:30.709Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T10:40:58.464Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T10:41:00.425Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T10:41:06.197Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T10:41:16.301Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T10:41:24.008Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T10:41:24.262Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T10:41:24.271Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T10:54:48.944Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T10:54:49.190Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T10:54:49.196Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T10:58:47.749Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T10:58:47.760Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T10:59:41.201Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T10:59:48.458Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/members","ip":"::1"}
+{"timestamp":"2025-11-07T10:59:49.482Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/loans","ip":"::1"}
+{"timestamp":"2025-11-07T10:59:51.323Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:00:31.894Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:00:31.909Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:02:20.946Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/loans","ip":"::1"}
+{"timestamp":"2025-11-07T11:02:22.145Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/members","ip":"::1"}
+{"timestamp":"2025-11-07T11:02:23.246Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T11:02:24.822Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/loans","ip":"::1"}
+{"timestamp":"2025-11-07T11:02:25.929Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/members","ip":"::1"}
+{"timestamp":"2025-11-07T11:06:55.109Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books/count","ip":"::1"}
+{"timestamp":"2025-11-07T11:06:55.111Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/members/count","ip":"::1"}
+{"timestamp":"2025-11-07T11:06:55.112Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/loans/count","ip":"::1"}
+{"timestamp":"2025-11-07T11:06:55.114Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/count","ip":"::1"}
+{"timestamp":"2025-11-07T11:06:55.117Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T11:06:55.135Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books/count","ip":"::1"}
+{"timestamp":"2025-11-07T11:06:55.137Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/members/count","ip":"::1"}
+{"timestamp":"2025-11-07T11:06:55.139Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/loans/count","ip":"::1"}
+{"timestamp":"2025-11-07T11:06:55.140Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/count","ip":"::1"}
+{"timestamp":"2025-11-07T11:06:55.146Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T11:06:57.906Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T11:06:59.395Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T11:07:02.341Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/members","ip":"::1"}
+{"timestamp":"2025-11-07T11:07:04.429Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/loans","ip":"::1"}
+{"timestamp":"2025-11-07T11:07:05.356Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users","ip":"::1"}
+{"timestamp":"2025-11-07T11:07:06.776Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T11:07:09.177Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users","ip":"::1"}
+{"timestamp":"2025-11-07T11:07:33.622Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/members","ip":"::1"}
+{"timestamp":"2025-11-07T11:07:35.207Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users","ip":"::1"}
+{"timestamp":"2025-11-07T11:07:40.886Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:07:40.898Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:07:41.123Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:07:43.856Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:10:49.759Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:10:49.781Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:10:53.044Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:10:53.061Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:23:25.331Z","level":"info","message":"Incoming Request","method":"DELETE","url":"/api/users/690cd69f792c0be71d0e50d3","ip":"::1"}
+{"timestamp":"2025-11-07T11:23:25.381Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:24:04.111Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T11:24:04.355Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T11:24:04.362Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T11:24:37.655Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:24:37.659Z","level":"warn","message":"401 Unauthorized - No token provided","ip":"::1","url":"/api/users/all","method":"GET"}
+{"timestamp":"2025-11-07T11:24:39.984Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/loans","ip":"::1"}
+{"timestamp":"2025-11-07T11:24:41.626Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T11:25:44.235Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T11:25:46.043Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/books","ip":"::1"}
+{"timestamp":"2025-11-07T11:32:24.535Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T11:32:44.749Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T11:32:44.992Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:32:44.999Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:34:18.809Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:34:18.816Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:49:18.746Z","level":"info","message":"Incoming Request","method":"DELETE","url":"/api/users/reset","ip":"::1"}
+{"timestamp":"2025-11-07T11:49:50.218Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T11:51:07.100Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T11:53:45.165Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:53:45.173Z","level":"warn","message":"403 Forbidden - Insufficient permissions","ip":"::1","url":"/api/users/all","role":"editor","requiredRoles":["admin"]}
+{"timestamp":"2025-11-07T11:53:54.688Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:54:25.265Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:54:45.786Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/content","ip":"::1"}
+{"timestamp":"2025-11-07T11:57:29.938Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:57:29.947Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:57:57.904Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T11:57:57.917Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:00:05.777Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:00:05.788Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:00:13.089Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:00:13.102Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:00:33.558Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:00:33.568Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:03:26.041Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T12:04:20.280Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T12:04:20.508Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:04:20.519Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:05:16.111Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T12:05:26.172Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T12:05:54.542Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T12:06:20.223Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T12:06:20.466Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:06:20.475Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:07:10.784Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:07:10.797Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:09:31.230Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T12:10:18.117Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T12:10:18.347Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:10:18.355Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:12:00.578Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T12:12:00.823Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:12:00.838Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:12:08.715Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:12:08.730Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:12:11.145Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:12:11.172Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:18:12.368Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T12:18:12.637Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:18:12.653Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:18:21.171Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:28:07.778Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T12:28:37.812Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T12:28:38.038Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:28:38.047Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:34:32.762Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:34:32.767Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:44:37.756Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:44:37.766Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:45:49.759Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T12:46:57.257Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/messages","ip":"::1"}
+{"timestamp":"2025-11-07T12:47:01.534Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/messages","ip":"::1"}
+{"timestamp":"2025-11-07T12:48:39.735Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T12:49:10.665Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T12:49:10.823Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:49:10.855Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T12:49:21.076Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/messages","ip":"::1"}
+{"timestamp":"2025-11-07T12:49:29.849Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/messages","ip":"::1"}
+{"timestamp":"2025-11-07T13:03:17.731Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T13:03:17.802Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T13:03:30.504Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T13:03:30.539Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T13:03:36.808Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/messages","ip":"::1"}
+{"timestamp":"2025-11-07T13:04:54.929Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T13:04:54.975Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T13:08:21.348Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T13:08:21.422Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T13:09:12.080Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T13:09:12.447Z","level":"info","message":"New user registered successfully","userId":"690def78d05902e2766b9c3e","email":"Pooja223@gmail.com","role":"user"}
+{"timestamp":"2025-11-07T13:09:38.360Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T13:09:38.368Z","level":"warn","message":"Login failed - User not found","email":"Suchi0345@gmai.com"}
+{"timestamp":"2025-11-07T13:09:57.700Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T13:09:57.840Z","level":"info","message":"User logged in successfully","userId":"690de0a286bdbe09fa3836f7","email":"Suchi0345@gmail.com","role":"admin"}
+{"timestamp":"2025-11-07T13:09:57.961Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T13:09:57.985Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T13:11:33.034Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T13:11:33.043Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T13:12:50.114Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T13:12:50.236Z","level":"info","message":"User logged in successfully","userId":"690de17b86bdbe09fa3836ff","email":"sania1232@gmail.com","role":"editor"}
+{"timestamp":"2025-11-07T13:12:50.272Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T13:12:50.298Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T13:55:01.553Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::ffff:127.0.0.1"}
+{"timestamp":"2025-11-07T13:55:01.613Z","level":"warn","message":"401 Unauthorized - No token provided","ip":"::ffff:127.0.0.1","url":"/api/users/all","method":"GET"}
+{"timestamp":"2025-11-07T13:55:01.678Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::ffff:127.0.0.1"}
+{"timestamp":"2025-11-07T13:55:01.684Z","level":"warn","message":"403 Forbidden - Invalid or expired token","ip":"::ffff:127.0.0.1","url":"/api/users/all","error":"jwt malformed"}
+{"timestamp":"2025-11-07T13:57:20.243Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::ffff:127.0.0.1"}
+{"timestamp":"2025-11-07T13:57:20.347Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::ffff:127.0.0.1"}
+{"timestamp":"2025-11-07T13:57:20.353Z","level":"warn","message":"403 Forbidden - Insufficient permissions","ip":"::ffff:127.0.0.1","url":"/api/users/all","userRole":"editor","requiredRoles":["admin"]}
+{"timestamp":"2025-11-07T13:57:20.366Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::ffff:127.0.0.1"}
+{"timestamp":"2025-11-07T13:57:20.369Z","level":"warn","message":"403 Forbidden - Insufficient permissions","ip":"::ffff:127.0.0.1","url":"/api/users/all","userRole":"user","requiredRoles":["admin"]}
+{"timestamp":"2025-11-07T13:57:21.065Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::ffff:127.0.0.1"}
+{"timestamp":"2025-11-07T13:57:21.071Z","level":"warn","message":"401 Unauthorized - No token provided","ip":"::ffff:127.0.0.1","url":"/api/users/all","method":"GET"}
+{"timestamp":"2025-11-07T13:57:21.095Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::ffff:127.0.0.1"}
+{"timestamp":"2025-11-07T13:57:21.096Z","level":"warn","message":"403 Forbidden - Invalid or expired token","ip":"::ffff:127.0.0.1","url":"/api/users/all","error":"jwt malformed"}
+{"timestamp":"2025-11-07T13:59:23.103Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::ffff:127.0.0.1"}
+{"timestamp":"2025-11-07T13:59:23.219Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::ffff:127.0.0.1"}
+{"timestamp":"2025-11-07T13:59:23.221Z","level":"warn","message":"403 Forbidden - Insufficient permissions","ip":"::ffff:127.0.0.1","url":"/api/users/all","userRole":"editor","requiredRoles":["admin"]}
+{"timestamp":"2025-11-07T13:59:23.231Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::ffff:127.0.0.1"}
+{"timestamp":"2025-11-07T13:59:23.233Z","level":"warn","message":"403 Forbidden - Insufficient permissions","ip":"::ffff:127.0.0.1","url":"/api/users/all","userRole":"user","requiredRoles":["admin"]}
+{"timestamp":"2025-11-07T13:59:24.457Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::ffff:127.0.0.1"}
+{"timestamp":"2025-11-07T13:59:24.458Z","level":"warn","message":"401 Unauthorized - No token provided","ip":"::ffff:127.0.0.1","url":"/api/users/all","method":"GET"}
+{"timestamp":"2025-11-07T13:59:24.494Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::ffff:127.0.0.1"}
+{"timestamp":"2025-11-07T13:59:24.496Z","level":"warn","message":"403 Forbidden - Invalid or expired token","ip":"::ffff:127.0.0.1","url":"/api/users/all","error":"jwt malformed"}
+{"timestamp":"2025-11-07T16:56:54.775Z","level":"info","message":"Incoming Request","method":"GET","url":"/","ip":"::1"}
+{"timestamp":"2025-11-07T16:58:18.997Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T16:58:19.018Z","level":"warn","message":"Login failed - User not found","email":"alisha23@gmail.com"}
+{"timestamp":"2025-11-07T16:59:10.536Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T16:59:10.711Z","level":"error","message":"Registration error","error":"db already exists with different case already have: [rbacDB] trying to create [rbacdb]"}
+{"timestamp":"2025-11-07T16:59:13.031Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T16:59:13.154Z","level":"error","message":"Registration error","error":"db already exists with different case already have: [rbacDB] trying to create [rbacdb]"}
+{"timestamp":"2025-11-07T17:04:20.032Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T17:04:20.279Z","level":"info","message":"New user registered successfully","userId":"690e2694de52d28b9dbfb32b","email":"rithika123@gmail.com","role":"editor"}
+{"timestamp":"2025-11-07T17:05:09.459Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T17:05:09.465Z","level":"warn","message":"Login failed - User not found","email":"Riaa12@gmail.com"}
+{"timestamp":"2025-11-07T17:05:17.483Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T17:05:17.486Z","level":"warn","message":"Login failed - User not found","email":"Riaa12@gmail.com"}
+{"timestamp":"2025-11-07T17:05:25.367Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T17:05:25.372Z","level":"warn","message":"Login failed - User not found","email":"Riaa12@gmail.com"}
+{"timestamp":"2025-11-07T17:05:57.108Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T17:05:57.111Z","level":"warn","message":"Login failed - User not found","email":"akshit08@gmail.com"}
+{"timestamp":"2025-11-07T17:07:12.555Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T17:07:12.687Z","level":"info","message":"New user registered successfully","userId":"690e2740de52d28b9dbfb332","email":"Shiva123@gmail.com","role":"user"}
+{"timestamp":"2025-11-07T17:07:34.598Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T17:07:34.682Z","level":"warn","message":"Login failed - Incorrect password","email":"Shiva123@gmail.com"}
+{"timestamp":"2025-11-07T17:07:39.629Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T17:07:39.700Z","level":"warn","message":"Login failed - Incorrect password","email":"Shiva123@gmail.com"}
+{"timestamp":"2025-11-07T17:07:48.053Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T17:07:48.137Z","level":"warn","message":"Login failed - Incorrect password","email":"Shiva123@gmail.com"}
+{"timestamp":"2025-11-07T17:29:10.035Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T17:29:10.233Z","level":"info","message":"New user registered successfully","userId":"690e2c66ee876fa2ea13ff17","email":"armaan123@gmail.com","role":"editor"}
+{"timestamp":"2025-11-07T17:29:29.223Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T17:29:29.295Z","level":"warn","message":"Login failed - Incorrect password","email":"armaan123@gmail.com"}
+{"timestamp":"2025-11-07T17:39:18.244Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T17:39:18.456Z","level":"info","message":"New user registered successfully","userId":"690e2ec6c3fe443ff2eb23b1","email":"tanvi12@gmail.com","role":"user"}
+{"timestamp":"2025-11-07T17:39:42.628Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T17:39:42.706Z","level":"warn","message":"Login failed - Incorrect password","email":"tanvi12@gmail.com"}
+{"timestamp":"2025-11-07T17:53:35.741Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T17:53:35.778Z","level":"warn","message":"403 Forbidden - Invalid or expired token","ip":"::1","url":"/api/users/all","error":"jwt expired"}
+{"timestamp":"2025-11-07T17:53:35.787Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T17:53:35.793Z","level":"warn","message":"403 Forbidden - Invalid or expired token","ip":"::1","url":"/api/users/all","error":"jwt expired"}
+{"timestamp":"2025-11-07T17:54:26.927Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T17:54:27.095Z","level":"info","message":"New user registered successfully","userId":"690e3253c3fe443ff2eb23b5","email":"alisha92@gmail.com","role":"admin"}
+{"timestamp":"2025-11-07T17:54:42.700Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T17:54:42.786Z","level":"warn","message":"Login failed - Incorrect password","email":"alisha92@gmail.com"}
+{"timestamp":"2025-11-07T18:00:26.602Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T18:00:26.677Z","level":"warn","message":"Login failed - Incorrect password","email":"editor@gmail.com"}
+{"timestamp":"2025-11-07T18:00:27.751Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T18:00:27.813Z","level":"warn","message":"Login failed - Incorrect password","email":"editor@gmail.com"}
+{"timestamp":"2025-11-07T18:01:11.825Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T18:01:11.905Z","level":"info","message":"User logged in successfully","userId":"690df673d2bf60087e48463f","email":"editor@gmail.com","role":"editor"}
+{"timestamp":"2025-11-07T18:01:11.931Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T18:01:11.959Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T18:01:49.189Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T18:01:49.253Z","level":"info","message":"User logged in successfully","userId":"690df673d2bf60087e48463f","email":"editor@gmail.com","role":"editor"}
+{"timestamp":"2025-11-07T18:01:49.281Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T18:01:49.288Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T18:12:08.991Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T18:12:09.148Z","level":"info","message":"New user registered successfully","userId":"690e3679215d9205a8d50de1","email":"sonu121@gmail.com","role":"editor"}
+{"timestamp":"2025-11-07T18:12:45.899Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T18:12:45.903Z","level":"warn","message":"Login failed - User not found","email":"suchi0345@gmail.com"}
+{"timestamp":"2025-11-07T18:16:52.661Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T18:16:52.791Z","level":"info","message":"User logged in successfully","userId":"690df673d2bf60087e484640","email":"user@gmail.com","role":"user"}
+{"timestamp":"2025-11-07T18:16:52.822Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T18:16:52.849Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/profile","ip":"::1"}
+{"timestamp":"2025-11-07T19:18:24.324Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T19:18:38.534Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/content","ip":"::1"}
+{"timestamp":"2025-11-07T19:21:13.300Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T19:21:13.481Z","level":"info","message":"New user registered successfully","userId":"690e46a97c33e475e24bd1a4","email":"khushi123@gmail.com","role":"user"}
+{"timestamp":"2025-11-07T19:21:52.486Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T19:21:52.564Z","level":"warn","message":"Login failed - Incorrect password","email":"khushi123@gmail.com"}
+{"timestamp":"2025-11-07T19:22:08.138Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T19:22:35.326Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/health","ip":"::1"}
+{"timestamp":"2025-11-07T19:22:44.446Z","level":"info","message":"Incoming Request","method":"DELETE","url":"/api/users/reset","ip":"::1"}
+{"timestamp":"2025-11-07T19:23:17.876Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T19:23:18.041Z","level":"info","message":"New user registered successfully","userId":"690e47257c33e475e24bd1a9","email":"akshit08@gmail.com","role":"user"}
+{"timestamp":"2025-11-07T19:23:43.540Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T19:23:43.602Z","level":"warn","message":"Login failed - Incorrect password","email":"akshit08@gmail.com"}
+{"timestamp":"2025-11-07T19:24:05.897Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T19:24:05.899Z","level":"warn","message":"403 Forbidden - Insufficient permissions","ip":"::1","url":"/api/users/all","userRole":"editor","requiredRoles":["admin"]}
+{"timestamp":"2025-11-07T19:25:02.883Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T19:25:58.850Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T19:26:19.170Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T19:26:40.133Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T19:26:40.136Z","level":"warn","message":"Login failed - User not found","email":"alisha@gmail.com"}
+{"timestamp":"2025-11-07T19:26:48.544Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T19:30:29.413Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T19:30:29.621Z","level":"info","message":"New user registered successfully","userId":"690e48d57c33e475e24bd1af","email":"rehan@gmail.com","role":"user"}
+{"timestamp":"2025-11-07T19:30:46.590Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T19:30:46.665Z","level":"warn","message":"Login failed - Incorrect password","email":"rehan@gmail.com"}
+{"timestamp":"2025-11-07T19:30:50.933Z","level":"info","message":"Incoming Request","method":"GET","url":"/api/users/all","ip":"::1"}
+{"timestamp":"2025-11-07T19:31:54.156Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T19:31:54.217Z","level":"warn","message":"Login failed - Incorrect password","email":"rehan@gmail.com"}
+{"timestamp":"2025-11-07T19:32:01.471Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T19:32:01.536Z","level":"warn","message":"Login failed - Incorrect password","email":"rehan@gmail.com"}
+{"timestamp":"2025-11-07T19:32:53.955Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T19:32:54.022Z","level":"warn","message":"Login failed - Incorrect password","email":"rehan@gmail.com"}
+{"timestamp":"2025-11-07T19:37:56.186Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T19:37:56.326Z","level":"warn","message":"Login failed - Incorrect password","email":"rehan@gmail.com"}
+{"timestamp":"2025-11-07T19:40:02.374Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/register","ip":"::1"}
+{"timestamp":"2025-11-07T19:40:02.565Z","level":"info","message":"New user registered successfully","userId":"690e4b12b2f876edf3483e33","email":"aerish@gmail.com","role":"user"}
+{"timestamp":"2025-11-07T19:40:24.958Z","level":"info","message":"Incoming Request","method":"POST","url":"/api/auth/login","ip":"::1"}
+{"timestamp":"2025-11-07T19:40:25.021Z","level":"warn","message":"Login failed - Incorrect password","email":"aerish@gmail.com"}
