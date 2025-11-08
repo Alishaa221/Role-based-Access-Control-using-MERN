@@ -130,12 +130,11 @@ router.post(
         return res.status(400).json({ message: "Email already registered" })
       }
 
-      const hashedPassword = await bcrypt.hash(password, 10)
 
       const newUser = new User({
         name,
         email,
-        password: hashedPassword,
+        password,
         role,
       })
 
